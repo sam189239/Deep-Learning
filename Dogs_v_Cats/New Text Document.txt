@@ -1,0 +1,5 @@
+A simple Dog vs. Cat classifier with ~98% accuracy using transfer learning approach and implementing the VGG-16 model.
+
+Dataset: https://www.kaggle.com/c/dogs-vs-cats
+
+I trained the model using the above dataset in Google Colab. Dataset to be stored in "Dataset" folder in the main directory. The model.py file has code to pre-process the images that splits the dataset in 3:1 ratio and stores in two folders - train and test. Then, the model is defined and then fit. This model can then be used to predict on other images using the predict.py while the testset_accuracy.py can be used to evaluate the accuracy of prediction in the test set which I obtained as 0.993 and have included a screen capture of it.
